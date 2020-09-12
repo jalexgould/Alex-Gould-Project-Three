@@ -1,0 +1,51 @@
+@import './setup';
+@import './header';
+@import './main';
+
+
+// /* General */
+
+html { 
+   font-size: 62.5%;
+   font-family: 'Karla', sans-serif;
+   font-family: 'Rubik', sans-serif;
+}
+
+body{ 
+   background-color: rgba(252, 175, 42, 0.762);
+   color: rgb(0, 0, 0);
+   display: block;
+}
+
+ul { 
+   margin: 0;
+   padding: 0;
+   list-style-type: none;   
+}
+
+a { 
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-size: 35px;
+}
+
+img { 
+   max-width: 100%;
+}
+
+.wrapper{ 
+   max-width:1300px; ;
+   width: 70%;
+   margin: 0 auto;
+}
+
+button{ 
+   background-color: #0178A5;
+}
+
+button:hover,
+button:focus {
+   color: black;
+   background-color: white;
+   border-color: black;
+}
