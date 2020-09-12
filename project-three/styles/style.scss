@@ -1,6 +1,8 @@
 @import './setup';
+@import './variables';
 @import './header';
 @import './main';
+@import './footer';
 
 
 // /* General */
@@ -12,7 +14,6 @@ html {
 }
 
 body{ 
-   background-color: rgba(252, 175, 42, 0.762);
    color: rgb(0, 0, 0);
    display: block;
 }

@@ -12,22 +12,25 @@
          <source src="../Assest/Local Prices.mp4" type="video/mp4">
          </video>
          <h1>Local Prices Offered</h1>
-         <p>Search Local Prices For Products In Your Area</p>
-         <p>Select Options From The Dropdown Below To Start Your local Search</p>
+         <p class="p pOne">Search Local Prices For Products In Your Area</p>
+         <p class="p pTwo">Select Options From The Dropdown Below To Start Your local Search</p>
+         <!-- restructure h1 & p element into the main section - only video will be in the header -->
    </header>
    <main>
-      <div id="drop-down">
-         <form action="">
-            <label for="business">Please Select :</label>
-            <select name="business" id="business">
-               <option value="coffee">Coffee</option>
-               <option value="cafe">Cafe</option>
-               <option value="eatIn">Eat In Restaurant</option>
-               <option value="take-away">Take Away</option>
-               <option value="patio">Patio</option>
-            </select>
-         </form>
-      </div>
+      <section class="drop-Sec">
+         <div id="drop-down">
+            <form action="">
+               <label for="business">Please Select :</label>
+               <select name="business" id="business">
+                  <option value="coffee">Coffee</option>
+                  <option value="cafe">Cafe</option>
+                  <option value="eatIn">Eat In Restaurant</option>
+                  <option value="take-away">Take Away</option>
+                  <option value="patio">Patio</option>
+               </select>
+            </form>
+         </div>
+      </section>
       <!-- drop down select for project -->
       <div class="container" id="artwork"></div>
       <!-- div with our piece of art -->
@@ -35,11 +38,9 @@
       <!-- p artist name -->
       <!-- img of the art  -->
    </main>
-      <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>  <script src="scripts.js"></script>
-   
-
    <footer>
       <p>Search Local Prices In Your Area</p>
    </footer>
+   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>  <script src="js/scripts.js"></script>
 </body>
 </html>
