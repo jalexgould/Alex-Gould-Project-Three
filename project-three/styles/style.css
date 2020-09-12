@@ -237,15 +237,21 @@ html {
 
 #headerVideo {
   position: relative;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  max-height: 100%;
+  left: 100px;
+  top: 50px;
+  width: 90%;
+  height: 80vh;
+  margin-bottom: 100px;
 }
 
 h1 {
   font-family: 'Rubik', sans-serif;
   font-size: 50px;
+  position: relative;
+  left: 700px;
+  top: 50px;
+  width: 90%;
+  height: 40vh;
 }
 
 body {
