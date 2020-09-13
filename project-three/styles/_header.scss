@@ -6,32 +6,62 @@ header{
    padding: 0;
    margin: 0;
    list-style: none;
+   height: 40vh;
+
 }
 
+.logo { 
+   font-family: 'Rubik', sans-serif;
+   font-size: 20px;
+   color: black;
+   top:0;
+   left: 0;
+}
+
+.video-Div { 
+   display: flex;
+   position: absolute;
+   justify-content: center;
+   width: 90%;
+}
 
    #headerVideo {
-      display: flex;
       position: relative;
-      left: 300px;
-      top: 50px;
-      // max-width: 100vh;
       width: 90%;
       height: 85vh;
-      margin-bottom: 100px;
+      top: 300px;
+      margin:200px 150px;
 
       // video addition was researched on w3
       // adjust width
-
 }
+
+.drop-Sec { 
+   display:flex;
+}
+.drop-down { 
+   font-family: 'Karla', sans-serif;
+   font-size: 25px;
+   color: #fff;
+   position: relative;
+   justify-content: center;
+      left:400px;
+      top: 130px;
+      width: 55%;
+      height: 30vh;
+      margin: 100px 0px 50px 0px;
+      padding: 50px 0px 200px 300px;
+      border: 2px solid #fff;
+}
+
 
 h1 { 
    font-family: 'Rubik', sans-serif;
    font-size: 50px;
-   display: flex;
+   color:#fff;
    position: relative;
-   top: 450px;
+   top: 550px;
    height: 15vh;
-   width: 50%;
-   right: 650px;
+   text-align: center;
    margin-top: 100px;
 }

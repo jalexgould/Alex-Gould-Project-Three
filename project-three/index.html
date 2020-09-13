@@ -8,19 +8,22 @@
 </head>
 <body>
    <header>
-         <video autoplay muted loop id="headerVideo">
-         <source src="../Assest/Local Prices.mp4" type="video/mp4">
-         </video>
+         <p class="logo">LPO-Local Prices Offered</p>
+         <div class="video-Div">
+            <video autoplay muted loop id="headerVideo">
+            <source src="../Assest/Local Prices.mp4" type="video/mp4">
+            </video>
+         </div>
          <h1>Local Prices Offered</h1>
-         <p class="p pOne">Search Local Prices For Products In Your Area</p>
          <p class="p pTwo">Select Options From The Dropdown Below To Start Your local Search</p>
+         <p class="p pOne">Search Local Prices For Products In Your Area</p>
          <!-- restructure h1 & p element into the main section - only video will be in the header -->
    </header>
    <main>
       <section class="drop-Sec">
-         <div id="drop-down">
+         <div class="drop-down">
             <form action="">
-               <label for="business">Please Select :</label>
+               <label for="business">Select Here :</label>
                <select name="business" id="business">
                   <option value="coffee">Coffee</option>
                   <option value="cafe">Cafe</option>
@@ -31,8 +34,8 @@
             </form>
          </div>
       </section>
+      <!-- <div class="container" id="drop-down"></div> -->
       <!-- drop down select for project -->
-      <div class="container" id="artwork"></div>
       <!-- div with our piece of art -->
       <!-- h2 - title of the art piece  -->
       <!-- p artist name -->

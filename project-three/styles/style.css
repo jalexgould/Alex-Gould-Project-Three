@@ -249,42 +249,34 @@ header {
   padding: 0;
   margin: 0;
   list-style: none;
+  height: 40vh;
+}
+
+.logo {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  color: black;
+  top: 0;
+  left: 0;
+}
+
+.video-Div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
 }
 
 #headerVideo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
-  left: 300px;
-  top: 50px;
   width: 90%;
   height: 85vh;
-  margin-bottom: 100px;
-}
-
-h1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  top: 450px;
-  height: 15vh;
-  width: 50%;
-  right: 650px;
-  margin-top: 100px;
-}
-
-body {
-  height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: rgba(252, 197, 102, 0.845);
-  color: black;
-  display: block;
+  top: 300px;
+  margin: 200px 150px;
 }
 
 .drop-Sec {
@@ -293,18 +285,41 @@ body {
   display: flex;
 }
 
-#drop-down {
+.drop-down {
+  font-family: 'Karla', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 400px;
+  top: 130px;
+  width: 55%;
+  height: 30vh;
+  margin: 100px 0px 50px 0px;
+  padding: 50px 0px 200px 300px;
+  border: 2px solid #fff;
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  color: #fff;
+  position: relative;
+  top: 550px;
+  height: 15vh;
+  text-align: center;
+  margin-top: 100px;
+}
+
+body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: 'Karla', sans-serif;
-  font-size: 25px;
-  position: relative;
-  left: 700px;
-  top: 50px;
-  width: 50%;
-  height: 30vh;
-  margin-top: 100px;
+  background-color: rgba(252, 197, 102, 0.845);
+  color: black;
+  display: block;
 }
 
 p {
@@ -316,13 +331,13 @@ p {
 
 .pOne {
   left: 800px;
-  top: 950px;
+  top: 1000px;
   height: 100px;
 }
 
 .pTwo {
   left: 700px;
-  top: 1000px;
+  top: 950px;
   height: 100px;
 }
 
