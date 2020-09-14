@@ -37,15 +37,15 @@ header{
 }
 
 .drop-Sec { 
-   display:flex;
-   
+   display:flex;   
 }
 .drop-down { 
+   flex-wrap: wrap;
+   position: relative;
+   justify-content: center;
    font-family: 'Karla', sans-serif;
    font-size: 20px;
    color: #fff;
-   position: relative;
-   justify-content: center;
       left:400px;
       top: 130px;
       width: 55%;

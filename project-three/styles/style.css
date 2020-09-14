@@ -286,13 +286,15 @@ header {
 }
 
 .drop-down {
-  font-family: 'Karla', sans-serif;
-  font-size: 20px;
-  color: #fff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  color: #fff;
   left: 400px;
   top: 130px;
   width: 55%;
