@@ -1,8 +1,8 @@
-@import './setup';
-@import './variables';
-@import './header';
-@import './main';
-@import './footer';
+@import 'setup';
+@import 'variables';
+@import 'header';
+@import 'main';
+@import 'footer';
 
 
 // /* General */
@@ -35,7 +35,7 @@ img {
 }
 
 .wrapper{ 
-   max-width:1300px; ;
+   max-width:1300px;
    width: 70%;
    margin: 0 auto;
 }

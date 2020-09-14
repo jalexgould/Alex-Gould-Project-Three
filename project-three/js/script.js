@@ -12,3 +12,25 @@
 // search. 
 
 // This button once clicked will redirect back to landing page for a new search. 
+
+//App object
+const localApp = {};
+
+
+// Initializing App 
+
+localApp.init = function(){
+   $('#business').on('change', function(){
+      const business = $(this).val();
+      
+      const businessType = $(this).find(':selected').text()
+      console.log(businessType)
+      // listen for the change on the drop down menu and grab the value
+      $('.title-Card').html(`<h2>${businessType} </h2>`)
+   })
+   
+}
+// Document ready function
+$(function(){
+   localApp.init();
+})
