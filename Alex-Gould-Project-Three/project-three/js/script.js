@@ -45,8 +45,9 @@ localApp.init = function(){
    $('#business').on('change', function(){
       const business = $(this).val();
       
-      const businessType = $(this).find(':selected').text()
-      console.log(businessType)
+      const businessType = $(this).find(':selected').text();
+      const venue = $(this).find.find(':selected').text();
+      // console.log(businessType);
 
       // const businessName =$(this).find(':selected').text;
       // listen for the change on the drop down menu and grab the value
