@@ -292,7 +292,7 @@ h1 {
   top: 475px;
   height: 15vh;
   margin-top: 100px;
-  width: 40%;
+  width: 45%;
   right: 685px;
 }
 
@@ -324,6 +324,7 @@ body {
   padding: 65px 0px 150px 320px;
   border: 2px solid #fff;
   width: 50%;
+  height: 300px;
 }
 
 p {
