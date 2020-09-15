@@ -17,6 +17,12 @@
 const localApp = {};
 
 
+// Let delclarations 
+
+let id = business;
+
+let businessType = 
+
 // Initializing App 
 
 localApp.init = function(){
@@ -25,8 +31,11 @@ localApp.init = function(){
       
       const businessType = $(this).find(':selected').text()
       console.log(businessType)
+
+      // const businessName =$(this).find(':selected').text;
       // listen for the change on the drop down menu and grab the value
       $('.title-Card').html(`<h2>${businessType} </h2>`)
+      $('.container').html(`<h3>${businessName}</h3>`)
    })
    
 }
