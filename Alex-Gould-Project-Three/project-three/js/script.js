@@ -15,13 +15,29 @@
 
 //App object
 const localApp = {};
+const venues = {
 
-
-// Let delclarations 
-
-let id = business;
-
-let businessType = 
+   coffee:[
+      {
+         name:'Jimmy/s',
+         seating:'Yes',
+         Pastry:'Yes',
+         website:'https://http://www.jimmyscoffee.ca/',
+      },
+      {
+         name:'Aroma',
+         seating:'Yes',
+         Pastry:'Yes',
+         website:'https://www.aroma.us/',
+      },
+      {
+         name:'Tim Hortons',
+         seating:'Yes',
+         Pastry:'Yes',
+         website:'https://www.timhortons.com/',
+      },
+   ]
+};
 
 // Initializing App 
 
@@ -35,8 +51,7 @@ localApp.init = function(){
       // const businessName =$(this).find(':selected').text;
       // listen for the change on the drop down menu and grab the value
       $('.title-Card').html(`<h2>${businessType} </h2>`)
-      $('.container').html(`<h3>${businessName}</h3>`)
-   })
+      })
    
 }
 // Document ready function
