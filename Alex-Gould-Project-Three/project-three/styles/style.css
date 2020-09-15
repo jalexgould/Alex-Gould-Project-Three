@@ -291,9 +291,9 @@ h1 {
   position: relative;
   top: 475px;
   height: 15vh;
-  margin-top: 100px;
-  width: 45%;
-  right: 685px;
+  margin-top: 80px;
+  width: 70%;
+  right: 480px;
 }
 
 body {
@@ -323,19 +323,21 @@ body {
   color: #fff;
   padding: 65px 0px 150px 320px;
   border: 2px solid #fff;
-  width: 50%;
+  width: 75%;
   height: 300px;
+  margin-top: 20px;
 }
 
 p {
   font-family: 'Karla', sans-serif;
   font-size: 25px;
   position: relative;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .p-One {
-  max-width: 54%;
+  max-width: 100%;
+  right: 100px;
 }
 
 .container {
